@@ -1,0 +1,7 @@
+.section{
+  --container_width: 1200px;
+  --container_gap: 15px;
+  --ultimate_padding: calc(((100vw - var(--container_width)) / 2) + var(--container_gap));
+  background: black;
+
+}

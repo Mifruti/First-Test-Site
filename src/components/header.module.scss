@@ -1,0 +1,98 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 26px 0;
+
+  background: #191919;
+  border-top: 1px solid #434343;
+  border-bottom: 1px solid #434343;
+
+  &_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+
+    nav{
+
+    }/* Вкладыш(так можно вкладывать в классы) */
+  }
+}
+
+.logo_head{
+  float: left;
+  display: block;
+  width: 178px;
+  height: 50px;
+}
+
+.li_inline{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  //padding: 15px;
+  //
+  //font-size: 18px;
+  //
+  //border-radius: 10px;
+  //
+  //transition: .5s;
+
+  &:hover{
+    //color: #000;
+    //background: #979799;
+  }
+}
+
+.header_link{
+  display: flex;
+
+  padding: 15px;
+
+  font-size: 18px;
+
+  border: #191919 1px solid;
+  border-radius: 10px;
+
+  transition: .5s;
+
+  &:hover {
+    color: #fff;
+    background: #131313;
+    border: #3c3c3c 1px solid;
+    }
+  }
+
+.ul_header{
+  position: relative;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  
+  //transform: translate(-50%, 0px);left: 50%;
+}
+
+.contact_button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 150px;
+
+
+  button{
+    //height: 40px;
+    padding: 14px 20px;
+    color: black;
+    background: #fdce30;
+    border-radius: 10px;
+
+    &:hover{
+      color: #fff;
+      background: #eab506;
+      border: #3c3c3c 1px solid;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.home {
+}
+
+.ad{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 10px;
+  /* margin: 10px;/* Костыль */
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  color: #979799;
+  text-align: center;
+
+  background: #2b2b2b;
+}
+
+
+.link_img{
+  padding-left: 15px;
+}
