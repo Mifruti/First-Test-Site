@@ -7,8 +7,8 @@
   padding: 26px 0;
 
   background: #191919;
-  border-top: 1px solid #434343;
-  border-bottom: 1px solid #434343;
+  border-top: 1px solid #262626;
+  border-bottom: 1px solid #262626;
 
   &_container{
     display: flex;
@@ -85,14 +85,17 @@
   button{
     //height: 40px;
     padding: 14px 20px;
+
     color: black;
+
     background: #fdce30;
+    border: #4e4e4e 1px solid;
     border-radius: 10px;
 
     &:hover{
-      color: #fff;
-      background: #eab506;
-      border: #3c3c3c 1px solid;
+      color: #000;
+      background: #ff8000;
+      border: #c63500 1px solid;
     }
   }
 }

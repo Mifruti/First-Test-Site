@@ -1,5 +1,8 @@
 :root {
   --background: #000;
+  --container_width: 1620px;
+  --container_gap: 15px;
+  --ultimate_padding: calc(((100vw - var(--container_width)) / 2) + var(--container_gap));
 }
 
 *,
@@ -21,8 +24,8 @@
 
 .container {
   width: 100%;
-  max-width: 1620px;
+  max-width: var(--container_width);
   margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: var(--container_gap);
+  padding-left: var(--container_gap);
 }

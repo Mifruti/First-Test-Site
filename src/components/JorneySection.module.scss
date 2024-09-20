@@ -1,7 +1,143 @@
 .section{
-  --container_width: 1200px;
-  --container_gap: 15px;
-  --ultimate_padding: calc(((100vw - var(--container_width)) / 2) + var(--container_gap));
-  background: black;
+  background: #141414;
 
+}
+
+.left_block {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: 60%;
+}
+
+.right_block{
+  width: 40%;
+  min-width: 40%;
+  padding-top: 395px;
+  padding-right: var(--ultimate_padding);
+
+ background-repeat: no-repeat;
+  border: #262626 1px solid;
+
+}
+
+.right_block_ghost{
+
+}
+
+.left_block_up{
+  padding-left: var(--ultimate_padding);
+}
+
+.left_block_down{
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: var(--ultimate_padding);
+  border-top: #262626 1px solid;
+}
+
+.section_wrapper{
+  display: flex;
+}
+
+.text_titel_secondary{
+  display: flex;
+  justify-content: left;
+
+  padding-top: 150px;
+  padding-bottom: 30px;
+
+  font-size: 30px;
+}
+
+.text_titel{
+padding-bottom: 20px;
+  font-size: 70px;
+  color: white;
+}
+
+.text_titel_low{
+  padding-bottom: 100px;
+font-size: 18px;
+}
+
+.sphere{
+  opacity: 0.4;
+}
+
+.right_box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding-bottom: 80px;
+  padding-left: 80px;
+}
+
+.person_box{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px ;
+  //padding-left: 80px;
+
+
+}
+
+.box_border{
+  padding: 5px;
+  background: #191919;
+  border: #262626 2px solid;
+  border-radius: 50px;
+}
+
+.person_photo{
+  width: 60px;
+  height: 60px;
+  //margin-left: px;
+
+  background: #191919;
+  border: #979799 2px solid;
+  border-radius: 50px;
+
+  &:not(:first-child){
+    margin-left: -18px;
+  }// Позволяет отменить или пременить
+  // класс точечно, к одному из элементов
+}
+
+.text_box{
+  padding-bottom: 30px;
+  //padding-left: 80px;
+}
+
+.right_titel_text{
+  padding-bottom: 14px ;
+  font-size: 24px;
+  color: white;
+}
+
+.right_second_text{
+font-size: 18px;
+  color: #8f8f90;
+}
+
+.button_link{
+  display: flex;
+  gap: 10px; //отступ между эллементами
+  justify-content: center;
+
+  //max-width: 231px;
+  //max-height: 63px;
+  padding: 18px 24px;
+
+  font-size: 18px;
+
+  background: #141414;
+  border: #262626 1px solid;
+  border-radius: 12px;
+}
+
+.link_logo{
+  width: 24px;
+  height: 24px;
 }
