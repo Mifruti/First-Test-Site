@@ -1,8 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import icon_one from "../assets/img/1.png";
+import icon_two from "../assets/img/2.png";
+import icon_three from "../assets/img/3.png";
 import sphere from "../assets/img/Abstract Design.png";
 import link_logo from "../assets/img/Icon.png";
+import link from "../assets/img/link.png";
 import person_one from "../assets/img/p1.png";
 import person_two from "../assets/img/p2.png";
 import person_three from "../assets/img/p3.png";
@@ -31,11 +35,23 @@ const JorneySection = () => {
             </div>
           </div>
           <div className={styles.left_block_down}>
-            <div>
-              <p>
-                obcaecati optio perspiciatis porro quaerat quasi quia ratione
-                recusandae repellendus sint, soluta tenetur ullam{" "}
+            <div className={styles.case_stats}>
+              <p className={styles.first_stats}>
+                300 <p className={styles.plus}>+</p>
               </p>
+              <p className={styles.second_stats}>Resources available</p>
+            </div>
+            <div className={styles.case_stats}>
+              <p className={styles.first_stats}>
+                12k <p className={styles.plus}>+</p>{" "}
+              </p>
+              <p className={styles.second_stats}>Total Downloads</p>
+            </div>
+            <div className={styles.case_stats}>
+              <p className={styles.first_stats}>
+                10k <p className={styles.plus}>+</p>{" "}
+              </p>
+              <p className={styles.second_stats}>Active Users</p>
             </div>
           </div>
         </div>
@@ -68,6 +84,44 @@ const JorneySection = () => {
               <p>Explore Resources</p>
               <img className={styles.link_logo} src={link_logo} />
             </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.last_block}>
+        <div className={styles.last_box}>
+          <div className={styles.box}>
+            <img className={styles.last_icon} src={icon_one} alt="" />
+            <div className={styles.last_link_text}>
+              <div>
+                <h3>Latest News Updates</h3>
+                <h4>Stay Current</h4>
+              </div>
+              <img className={styles.link} src={link} alt="" />
+            </div>
+            <p>Over 1,000 articles published monthly</p>
+          </div>
+          <div className={styles.box}>
+            <img className={styles.last_icon} src={icon_two} alt="" />
+            <div className={styles.last_link_text}>
+              <div>
+                <h3>Expert Contributors</h3>
+                <h4>Trusted Insights</h4>
+              </div>
+              <img className={styles.link} src={link} alt="" />
+            </div>
+            <p>50+ renowned AI experts on our team</p>
+          </div>
+          <div className={styles.box}>
+            <img className={styles.last_icon} src={icon_three} alt="" />
+            <div className={styles.last_link_text}>
+              <div>
+                <h3>Global Readership</h3>
+                <h4>Worldwide Impact</h4>
+              </div>
+              <img className={styles.link} src={link} alt="" />
+            </div>
+            <p>2 million monthly readers</p>
           </div>
         </div>
       </div>
