@@ -93,35 +93,35 @@ const JorneySection = () => {
           <div className={styles.box}>
             <img className={styles.last_icon} src={icon_one} alt="" />
             <div className={styles.last_link_text}>
-              <div>
+              <div className={styles.text_last_block}>
                 <h3>Latest News Updates</h3>
                 <h4>Stay Current</h4>
               </div>
               <img className={styles.link} src={link} alt="" />
             </div>
-            <p>Over 1,000 articles published monthly</p>
+            <h5>Over 1,000 articles published monthly</h5>
           </div>
           <div className={styles.box}>
             <img className={styles.last_icon} src={icon_two} alt="" />
             <div className={styles.last_link_text}>
-              <div>
+              <div className={styles.text_last_block}>
                 <h3>Expert Contributors</h3>
                 <h4>Trusted Insights</h4>
               </div>
               <img className={styles.link} src={link} alt="" />
             </div>
-            <p>50+ renowned AI experts on our team</p>
+            <h5>50+ renowned AI experts on our team</h5>
           </div>
           <div className={styles.box}>
             <img className={styles.last_icon} src={icon_three} alt="" />
             <div className={styles.last_link_text}>
-              <div>
+              <div className={styles.text_last_block}>
                 <h3>Global Readership</h3>
                 <h4>Worldwide Impact</h4>
               </div>
               <img className={styles.link} src={link} alt="" />
             </div>
-            <p>2 million monthly readers</p>
+            <h5>2 million monthly readers</h5>
           </div>
         </div>
       </div>

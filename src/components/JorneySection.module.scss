@@ -213,25 +213,58 @@ font-size: 18px;
 }
 
 .box{
+  width: 100%;
+  //display: block;
+padding: 50px 80px;
 
+  &:not(:last-child){
+    border-right: #4e4e4e 1px solid;
+  }
+
+  &:last-child{
+    padding-right: 0;
+  }
+
+  &:first-child{
+    padding-left: 0;
+  }
 }
 
 .last_icon{
+padding-bottom: 30px;
 
 }
 
 .link{
+ width: 52px;
+  height: 52px;
+
 
 }
+
 
 .last_link_text{
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text_last_block{
+
 }
 
 h4{
+  padding-top: 10px;
+  padding-bottom: 30px;
 font-size: 18px;
 }
 
 h3{
   font-size: 20px;
+  color: white;
+}
+
+h5{
+  font-size: 20px;
+
 }
