@@ -37,19 +37,19 @@ const JorneySection = () => {
           <div className={styles.left_block_down}>
             <div className={styles.case_stats}>
               <p className={styles.first_stats}>
-                300 <p className={styles.plus}>+</p>
+                300 <span className={styles.plus}>+</span>
               </p>
               <p className={styles.second_stats}>Resources available</p>
             </div>
             <div className={styles.case_stats}>
               <p className={styles.first_stats}>
-                12k <p className={styles.plus}>+</p>{" "}
+                12k <span className={styles.plus}>+</span>{" "}
               </p>
               <p className={styles.second_stats}>Total Downloads</p>
             </div>
             <div className={styles.case_stats}>
               <p className={styles.first_stats}>
-                10k <p className={styles.plus}>+</p>{" "}
+                10k <span className={styles.plus}>+</span>{" "}
               </p>
               <p className={styles.second_stats}>Active Users</p>
             </div>

@@ -8,13 +8,13 @@
   flex-direction: column;
   justify-content: space-between;
 
-  width: 60%;
-  min-width: 60%;
+  width: 57%;
+  min-width: 57%;
 }
 
 .right_block{
-  width: 40%;
-  min-width: 40%;
+  width: 43%;
+  min-width: 43%;
   padding-top: 395px;
   padding-right: var(--ultimate_padding);
 
@@ -218,7 +218,7 @@ font-size: 18px;
 padding: 50px 80px;
 
   &:not(:last-child){
-    border-right: #4e4e4e 1px solid;
+    border-right: #262626 1px solid;
   }
 
   &:last-child{
